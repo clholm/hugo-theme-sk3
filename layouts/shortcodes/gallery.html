@@ -1,0 +1,9 @@
+<div class="gallery sk3-flex-center-h">
+    <div class="images">
+      {{- range (seq 0 (sub (len .Params) 1) ) }}
+        {{- $src := $.Get . }}
+        <!-- {{ printf `%s` $src }} -->
+        <img src='/{{ $src }}'>
+      {{- end }}
+    </div>
+</div>

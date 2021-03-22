@@ -375,3 +375,8 @@ sk3-toc ul ul {
 .fab:hover {
   opacity: 1;
 }
+
+/* added by clholm */
+.images {
+  display: flex;
+}
